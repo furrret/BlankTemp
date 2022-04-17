@@ -51,12 +51,12 @@ ControllerButton down(ControllerDigital::down);
 
 pros::Motor FrontLeft(FLPort, false);
 pros::Motor FrontRight(FRPort, true);
-pros::Motor MiddleLeft(MLPort, true);
-pros::Motor MiddleRight(MRPort, false);
-pros::Motor BackLeft(BLPort, true);
-pros::Motor BackRight(BRPort, false);
-pros::Motor fBar(FBPort, false);
-pros::Motor intake(IP, false);
+pros::Motor MiddleLeft(MLPort, false);
+pros::Motor MiddleRight(MRPort, true);
+pros::Motor BackLeft(BLPort, false);
+pros::Motor BackRight(BRPort, true);
+pros::Motor fBar(FBPort, true);
+pros::Motor intake(IP, true);
 
 pros::ADIDigitalOut tilt ('A');
 //pros::ADIDigitalOut bClamp ('B');
